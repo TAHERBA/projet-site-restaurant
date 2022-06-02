@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(27, 27, 27);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+    justify-content: center;
+
+}
+.cardimgs{
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover ;
+    border-radius: 15px 15px 0 0;
+}
+.taher{
+background-image: url('/images/teamtaher.jpg');
+}
+.hama{
+background-image: url('/images/teammohamed.jpg');
+}
+.card p{
+    padding: 10px;
+    text-align: center;
+}
+.card h2{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
